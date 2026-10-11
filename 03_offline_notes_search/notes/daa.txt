@@ -1,0 +1,29 @@
+Design and Analysis of Algorithms (DAA) studies the efficiency of algorithms in terms of time and space complexity.
+
+An algorithm is a finite sequence of steps used to solve a computational problem. Searching and sorting are fundamental algorithmic operations.
+
+Linear search examines elements one by one. Binary search works on sorted data and repeatedly divides the search interval into two halves.
+
+Sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, and quicksort. Merge sort uses the divide and conquer technique.
+
+Dynamic programming solves problems by dividing them into overlapping subproblems and storing intermediate results. The 0/1 knapsack problem, matrix chain multiplication, and longest common subsequence are examples of dynamic programming.
+
+Greedy algorithms make locally optimal choices at each step. Kruskal's algorithm and Prim's algorithm construct minimum spanning trees.
+
+A graph consists of vertices and edges. Graph algorithms solve problems involving connectivity, traversal, and shortest paths.
+
+Breadth First Search explores a graph level by level. Depth First Search explores a path before backtracking.
+
+Dijkstra's algorithm finds shortest paths from a source vertex when edge weights are non-negative. Floyd Warshall computes shortest paths between all pairs of vertices.
+
+Time complexity describes how running time grows with input size. Space complexity describes the additional memory required by an algorithm.
+
+Big O notation represents an asymptotic upper bound. Common complexity classes include O(1), O(log n), O(n), O(n log n), O(n squared), and O(2 to the power n).
+
+Hashing maps keys to positions in a hash table. Hash tables can support efficient searching when collisions are handled properly.
+
+Trees are hierarchical data structures. Binary search trees maintain an ordering property that supports searching, insertion, and deletion.
+
+The traveling salesperson problem seeks a minimum cost tour that visits every city and returns to the starting city. The problem is computationally difficult for large inputs.
+
+Algorithm analysis helps programmers choose suitable methods for solving problems efficiently.

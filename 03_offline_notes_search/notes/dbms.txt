@@ -1,0 +1,41 @@
+DBMS stands for Database Management System. It is software used to create, store, retrieve, update, and manage data.
+
+A database is an organized collection of related information. A relational database stores data in tables containing rows and columns.
+
+SQL stands for Structured Query Language. It is used to communicate with relational database systems.
+
+The CREATE command creates database objects. INSERT adds new records. SELECT retrieves data. UPDATE modifies records, and DELETE removes records.
+
+A primary key uniquely identifies each record in a table. A foreign key establishes a relationship between tables.
+
+A candidate key is a minimal set of attributes that uniquely identifies a record. A super key is any set of attributes that uniquely identifies a record.
+
+A composite key consists of two or more attributes. A surrogate key is an artificially generated identifier, such as an auto-incrementing integer.
+
+Database normalization organizes tables to reduce unnecessary data redundancy and prevent modification anomalies.
+
+First Normal Form requires attributes to contain atomic values. Second Normal Form removes partial dependencies on candidate keys. Third Normal Form removes transitive dependencies of non-key attributes.
+
+A join combines related records from two or more tables. Common joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and CROSS JOIN.
+
+Aggregate functions perform calculations on multiple records. Examples include COUNT, SUM, AVG, MIN, and MAX.
+
+The GROUP BY clause groups records with matching values. The HAVING clause filters groups after aggregation.
+
+The WHERE clause filters individual records. ORDER BY sorts query results in ascending or descending order.
+
+A database view is a virtual table based on a query. Views can simplify queries and restrict access to selected information.
+
+A transaction is a logical unit of database work. ACID properties are Atomicity, Consistency, Isolation, and Durability.
+
+Atomicity ensures that a transaction completes fully or has no effect. Consistency maintains database rules. Isolation separates concurrent transactions. Durability preserves committed changes.
+
+An index improves the retrieval of records by providing an efficient lookup structure. However, indexes require storage and may add overhead to insertions, updates, and deletions.
+
+Database constraints enforce rules on stored data. Common constraints include NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, and CHECK.
+
+NULL represents missing or unknown information. Comparisons involving NULL generally require IS NULL or IS NOT NULL rather than ordinary equality.
+
+A database schema describes the structure of a database, including its tables, columns, relationships, and constraints.
+
+Database management systems support data integrity, security, concurrency control, and reliable data access.
